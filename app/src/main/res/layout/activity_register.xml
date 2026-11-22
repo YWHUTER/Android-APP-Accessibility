@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_auth_register_page">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:alpha="0.22"
+        android:background="#E7E5FB" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="18dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_auth_clean_card"
+                android:elevation="6dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="18dp"
+                android:paddingTop="26dp"
+                android:paddingBottom="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="创建账号"
+                    android:textColor="#1F2430"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="加入校园闲置社区，开始你的买卖与交流。"
+                    android:textColor="#6B6F7B"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="姓名"
+                    android:textAllCaps="true"
+                    android:textColor="#7E8496"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:hint="请输入姓名"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1F2430"
+                    android:textColorHint="#B2B6C7"
+                    android:nextFocusForward="@+id/et_register_username"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="校园账号"
+                    android:textAllCaps="true"
+                    android:textColor="#7E8496"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_register_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:hint="请输入用户名"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1F2430"
+                    android:textColorHint="#B2B6C7"
+                    android:nextFocusForward="@+id/et_register_password"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="密码"
+                    android:textAllCaps="true"
+                    android:textColor="#7E8496"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_register_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:hint="请设置登录密码"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1F2430"
+                    android:textColorHint="#B2B6C7"
+                    android:nextFocusForward="@+id/sp_major"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="专业 / 院系"
+                    android:textAllCaps="true"
+                    android:textColor="#7E8496"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/sp_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:contentDescription="@string/cd_spinner_major"
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/bg_auth_verification_card"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="学生身份核验"
+                        android:textColor="#1F2430"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="用于校园市场权限校验"
+                        android:textColor="#6C7080"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_upload_id"
+                            android:layout_width="0dp"
+                            android:layout_height="44dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_auth_clean_card"
+                            android:gravity="center"
+                            android:text="上传学生证"
+                            android:textColor="#1353E2"
+                            android:textStyle="bold"
+                            android:focusable="true"
+                        />
+
+                        <TextView
+                            android:id="@+id/tv_sso_entry"
+                            android:layout_width="0dp"
+                            android:layout_height="44dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_auth_light_button"
+                            android:gravity="center"
+                            android:text="统一认证"
+                            android:textColor="#1F2430"
+                            android:textStyle="bold"
+                            android:focusable="true"
+                        />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="初始化兴趣偏好"
+                    android:textAllCaps="true"
+                    android:textColor="#7E8496"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/chip_interest_books"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip"
+                        android:gravity="center"
+                        android:text="教材资料"
+                        android:textColor="#404552" />
+
+                    <TextView
+                        android:id="@+id/chip_interest_tech"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip_active"
+                        android:gravity="center"
+                        android:text="数码设备"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/chip_interest_dorm"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip"
+                        android:gravity="center"
+                        android:text="宿舍好物"
+                        android:textColor="#404552" />
+
+                    <TextView
+                        android:id="@+id/chip_interest_study"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip"
+                        android:gravity="center"
+                        android:text="学习搭子"
+                        android:textColor="#404552" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/chip_interest_ticket"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip"
+                        android:gravity="center"
+                        android:text="活动票券"
+                        android:textColor="#404552" />
+
+                    <TextView
+                        android:id="@+id/chip_interest_job"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_auth_interest_chip"
+                        android:gravity="center"
+                        android:text="校园服务"
+                        android:textColor="#404552" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_interests"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:hint="兴趣标签会显示在这里，可手动补充"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1F2430"
+                    android:textColorHint="#B2B6C7"
+                    android:nextFocusForward="@+id/et_bio"
+                />
+
+                <EditText
+                    android:id="@+id/et_bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_auth_soft_input"
+                    android:gravity="top"
+                    android:hint="个人简介，可选填"
+                    android:padding="16dp"
+                    android:textColor="#1F2430"
+                    android:textColorHint="#B2B6C7"
+                    android:nextFocusForward="@+id/btn_register"
+                />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/bg_primary_gradient"
+                    android:text="注册并进入"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="18dp"
+                    android:text="已经有账号？返回登录"
+                    android:textColor="#0D3F9B"
+                    android:textSize="15sp"
+                    android:focusable="true"
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

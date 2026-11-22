@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_soft">#FBF8FF</color>
+    <color name="surface_soft">#F3F2FF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="primary_blue">#003EC7</color>
+    <color name="primary_blue_bright">#0052FF</color>
+    <color name="primary_blue_dark">#0038B6</color>
+    <color name="accent_teal">#76F3EA</color>
+    <color name="accent_teal_dark">#006A65</color>
+    <color name="text_primary">#191B25</color>
+    <color name="text_secondary">#434656</color>
+    <!-- 低视力可读性适配：次级文字与危险操作文字加深，
+         使其在白色 / 浅色卡片背景上的对比度达到 WCAG 2.1 AA（≥ 4.5:1）。
+         text_tertiary 原 #737688 对比度约 4.5:1（临界），danger 原 #D93F5C 约 4.4:1。 -->
+    <color name="text_tertiary">#5B5F72</color>
+    <color name="stroke_soft">#E7E7F5</color>
+    <color name="chip_bg">#E1E1EF</color>
+    <color name="danger">#C22646</color>
+</resources>

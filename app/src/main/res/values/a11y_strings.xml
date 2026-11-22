@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    揭榜任务二「视障友好适配」专用无障碍文案。
+    所有 contentDescription / 播报文案集中在此，便于维护、复核与后续多语言适配，
+    避免在布局中硬编码中文（Android lint: SetTextI18n / HardcodedText / ContentDescription）。
+-->
+<resources>
+    <!-- 底部导航与页面切换播报 -->
+    <string name="cd_nav_discovery">发现，底部导航第 1 项，共 5 项</string>
+    <string name="cd_nav_messages">消息，底部导航第 2 项，共 5 项</string>
+    <string name="cd_nav_post">发布闲置，底部导航第 3 项，共 5 项</string>
+    <string name="cd_nav_cart">购物车，底部导航第 4 项，共 5 项</string>
+    <string name="cd_nav_profile">我的，底部导航第 5 项，共 5 项</string>
+    <string name="announce_tab_discovery">已切换到发现页</string>
+    <string name="announce_tab_messages">已切换到消息页</string>
+    <string name="announce_tab_post">已切换到发布页</string>
+    <string name="announce_tab_cart">已切换到购物车</string>
+    <string name="announce_tab_profile">已切换到我的页面</string>
+
+    <!-- 通用操作按钮 -->
+    <string name="cd_back">返回上一页</string>
+    <string name="cd_close">关闭</string>
+    <string name="cd_more">更多选项</string>
+    <string name="cd_more_chat">更多聊天选项，可清空聊天记录</string>
+    <string name="cd_more_detail">更多操作</string>
+    <string name="cd_help_detail">帮助与交易说明</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_scan">刷新商品流</string>
+    <string name="cd_search">搜索</string>
+    <string name="cd_search_box">搜索商品，激活后可输入关键词</string>
+    <string name="cd_camera_publish">拍照发布闲置</string>
+    <string name="cd_new_message">发起新私信</string>
+    <string name="cd_change_avatar">更换头像</string>
+    <string name="cd_upload_image">添加商品图片，最多 10 张</string>
+    <string name="cd_remove_preview_1">移除第 1 张商品图片</string>
+    <string name="cd_remove_preview_2">移除第 2 张商品图片</string>
+    <string name="cd_remove_preview_3">移除第 3 张商品图片</string>
+    <string name="cd_preview_1">已选择的第 1 张商品图片</string>
+    <string name="cd_preview_2">已选择的第 2 张商品图片</string>
+    <string name="cd_preview_3">已选择的第 3 张商品图片</string>
+
+    <!-- 发现页：推荐 / 搜索模式切换 -->
+    <string name="cd_ai_recommend_toggle">AI 智能推荐</string>
+    <string name="cd_local_recommend_toggle">本地推荐</string>
+    <string name="cd_ai_search_toggle">AI 智能搜索</string>
+    <string name="cd_local_search_toggle">本地搜索</string>
+    <string name="cd_tab_follow">关注流</string>
+    <string name="cd_tab_recommend">推荐流</string>
+    <string name="cd_tab_latest">最新流</string>
+
+    <!-- 发布页 -->
+    <string name="cd_ai_post_assist">让 AI 帮写发布文案</string>
+    <string name="cd_ai_price_assist">让 AI 给出定价建议</string>
+    <string name="cd_pick_location">在高德地图上选择面交地点</string>
+    <string name="cd_save_post">保存并发布闲置</string>
+    <string name="cd_switch_pickup">支持校园面交</string>
+    <string name="cd_spinner_major">所在学院，下拉选择</string>
+    <string name="cd_spinner_edit_major">所在学院，下拉选择</string>
+    <string name="cd_spinner_category">商品分类，下拉选择</string>
+    <string name="cd_spinner_preferred_major">优先展示的学院，下拉选择</string>
+
+    <!-- 个人中心与列表入口 -->
+    <string name="cd_card_purchases">查看我买到的订单</string>
+    <string name="cd_card_sales">查看我卖出的订单</string>
+    <string name="cd_row_my_listings">查看我发布的闲置</string>
+    <string name="cd_row_community">进入校园社区</string>
+    <string name="cd_row_settings">进入设置</string>
+    <string name="cd_row_logout">退出登录</string>
+    <string name="cd_row_clear_image_cache">清理图片缓存</string>
+    <string name="cd_row_change_password">修改密码</string>
+    <string name="cd_empty_state">当前没有内容，双击可重试</string>
+
+    <!-- 图片类控件的语义描述（列表项由 Adapter 动态覆盖为具体商品名） -->
+    <string name="cd_detail_image">商品主图</string>
+    <string name="cd_item_image">商品图片</string>
+    <string name="cd_cart_item_image">购物车商品图片</string>
+    <string name="cd_my_item_image">我发布的商品图片</string>
+    <string name="cd_order_thumb">订单商品缩略图</string>
+    <string name="cd_post_image">帖子配图</string>
+    <string name="cd_selected_post_image">已选择的帖子配图</string>
+    <string name="cd_conversation_item_image">会话关联的商品缩略图</string>
+    <string name="cd_item_image_with_name">%1$s 的商品图片</string>
+    <string name="cd_conversation_with_name">与 %1$s 的会话</string>
+
+    <!-- 动态状态播报 -->
+    <string name="cd_badge_unread">%1$d 条未读消息</string>
+    <string name="cd_badge_cart">购物车中有 %1$d 件商品</string>
+    <string name="cd_unread_badge">%1$d 条未读消息</string>
+    <string name="cd_header_unread_badge">%1$d 条未读消息</string>
+    <string name="cd_chip_interest_selected">已选择兴趣标签 %1$s</string>
+    <string name="cd_chip_interest_unselected">未选择兴趣标签 %1$s</string>
+    <string name="cd_switch_on">已开启</string>
+    <string name="cd_switch_off">已关闭</string>
+    <string name="cd_category_tile">%1$s 分类，双击筛选商品</string>
+    <string name="cd_cart_item_checkbox">选择商品 %1$s</string>
+    <string name="cd_sort_selected">当前排序方式：%1$s</string>
+    <string name="cd_filter_selected">当前筛选：%1$s</string>
+</resources>

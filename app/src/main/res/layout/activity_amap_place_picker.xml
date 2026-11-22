@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_soft"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="32dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_surface_card_32"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_place_back"
+                android:layout_width="52dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_ai_soft"
+                android:gravity="center"
+                android:text="&#x8FD4;&#x56DE;"
+                android:textColor="@color/primary_blue"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:contentDescription="@string/cd_back"
+                android:focusable="true"
+            />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:text="&#x9009;&#x62E9;&#x4EA4;&#x6613;&#x5730;&#x70B9;"
+                android:textColor="@color/text_primary"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="&#x53EF;&#x624B;&#x52A8;&#x586B;&#x5199;&#xFF0C;&#x4E5F;&#x53EF;&#x7528;&#x9AD8;&#x5FB7;&#x641C;&#x7D22;&#x5730;&#x70B9;&#x3002;"
+            android:textColor="@color/text_tertiary"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_place_keyword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_field"
+                android:hint="&#x641C;&#x7D22;&#x6821;&#x56ED;&#x3001;&#x697C;&#x680B;&#x6216;&#x5546;&#x5708;"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_tertiary"
+                android:textSize="14sp"
+                android:nextFocusForward="@+id/btn_place_search"
+            />
+
+            <TextView
+                android:id="@+id/btn_place_search"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_primary_gradient"
+                android:gravity="center"
+                android:text="&#x641C;&#x7D22;"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:focusable="true"
+            />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_place_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="&#x8F93;&#x5165;&#x5173;&#x952E;&#x8BCD;&#x540E;&#x641C;&#x7D22;&#x3002;"
+            android:textColor="@color/text_tertiary"
+            android:textSize="12sp"
+            android:accessibilityLiveRegion="polite"
+        />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_place_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_surface_card_32"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/btn_place_manual"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_chip_outline"
+        android:gravity="center"
+        android:text="&#x4E0D;&#x4F7F;&#x7528;&#x9AD8;&#x5FB7;&#xFF0C;&#x8FD4;&#x56DE;&#x624B;&#x52A8;&#x586B;&#x5199;"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:focusable="true"
+    />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">校园智慧二手平台</string>
+    <string name="auth_welcome">校园二手物品转让平台</string>
+    <string name="auth_subtitle">使用 Java + SQLite 实现校园闲置物品发布、发现、聊天与推荐。</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="discovery">发现</string>
+    <string name="post">发布</string>
+    <string name="profile">我的</string>
+</resources>

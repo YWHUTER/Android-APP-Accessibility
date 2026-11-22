@@ -1,0 +1,1215 @@
+{
+  "layout_files": 28,
+  "issues": [
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_amap_place_picker.xml",
+      "line": 26,
+      "widget": "@+id/btn_place_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_amap_place_picker.xml",
+      "line": 63,
+      "widget": "@+id/et_place_keyword",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_amap_place_picker.xml",
+      "line": 79,
+      "widget": "@+id/btn_place_search",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_amap_place_picker.xml",
+      "line": 115,
+      "widget": "@+id/btn_place_manual",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_chat.xml",
+      "line": 16,
+      "widget": "@+id/btn_chat_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_chat.xml",
+      "line": 50,
+      "widget": "@+id/btn_chat_more",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_chat.xml",
+      "line": 133,
+      "widget": "@+id/tv_chat_empty_state",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_chat.xml",
+      "line": 165,
+      "widget": "@+id/et_chat_input",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_chat.xml",
+      "line": 178,
+      "widget": "@+id/btn_send_message",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_community.xml",
+      "line": 16,
+      "widget": "@+id/btn_community_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_community.xml",
+      "line": 36,
+      "widget": "@+id/btn_new_post",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_edit_profile.xml",
+      "line": 23,
+      "widget": "@+id/btn_edit_profile_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_edit_profile.xml",
+      "line": 59,
+      "widget": "@+id/et_edit_name",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_edit_profile.xml",
+      "line": 96,
+      "widget": "@+id/et_edit_interests",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_edit_profile.xml",
+      "line": 117,
+      "widget": "@+id/et_edit_bio",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_item_detail.xml",
+      "line": 17,
+      "widget": "@+id/btn_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_item_detail.xml",
+      "line": 38,
+      "widget": "@+id/btn_detail_help",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_item_detail.xml",
+      "line": 63,
+      "widget": "@+id/iv_detail_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_login.xml",
+      "line": 66,
+      "widget": "@+id/et_username",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_login.xml",
+      "line": 94,
+      "widget": "@+id/tv_forgot_password",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_login.xml",
+      "line": 104,
+      "widget": "@+id/et_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_login.xml",
+      "line": 157,
+      "widget": "@+id/btn_sso_login",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_login.xml",
+      "line": 175,
+      "widget": "@+id/tv_register",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 46,
+      "widget": "@+id/nav_blur_background",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 69,
+      "widget": "@+id/nav_discovery",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 85,
+      "widget": "@+id/nav_discovery_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 77,
+      "widget": "@+id/nav_messages",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 123,
+      "widget": "@+id/nav_messages_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-002",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 116,
+      "widget": "@+id/nav_post",
+      "detail": "contentDescription 应引用 @string 资源，当前为硬编码：发布闲置"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 193,
+      "widget": "@+id/nav_post_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 175,
+      "widget": "@+id/nav_cart",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 236,
+      "widget": "@+id/nav_cart_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 229,
+      "widget": "@+id/nav_profile",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_main.xml",
+      "line": 293,
+      "widget": "@+id/nav_profile_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 15,
+      "widget": "@+id/btn_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 15,
+      "widget": "@+id/btn_back",
+      "detail": "ImageButton 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 74,
+      "widget": "@+id/et_order_search",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 100,
+      "widget": "@+id/tab_orders_all",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 113,
+      "widget": "@+id/tab_orders_pending",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 127,
+      "widget": "@+id/tab_orders_shipped",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 141,
+      "widget": "@+id/tab_orders_completed",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 168,
+      "widget": "@+id/tab_sort_recent",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 182,
+      "widget": "@+id/tab_sort_price_high",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_purchases.xml",
+      "line": 197,
+      "widget": "@+id/tab_sort_price_low",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 15,
+      "widget": "@+id/btn_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 15,
+      "widget": "@+id/btn_back",
+      "detail": "ImageButton 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 74,
+      "widget": "@+id/et_order_search",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 100,
+      "widget": "@+id/tab_orders_all",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 113,
+      "widget": "@+id/tab_orders_pending",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 127,
+      "widget": "@+id/tab_orders_shipped",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 141,
+      "widget": "@+id/tab_orders_completed",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 168,
+      "widget": "@+id/tab_sort_recent",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 182,
+      "widget": "@+id/tab_sort_price_high",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_my_sales.xml",
+      "line": 197,
+      "widget": "@+id/tab_sort_price_low",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 68,
+      "widget": "@+id/et_name",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 89,
+      "widget": "@+id/et_register_username",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 110,
+      "widget": "@+id/et_register_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 169,
+      "widget": "@+id/tv_upload_id",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 180,
+      "widget": "@+id/tv_sso_entry",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 288,
+      "widget": "@+id/et_interests",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 299,
+      "widget": "@+id/et_bio",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_register.xml",
+      "line": 322,
+      "widget": "@+id/tv_login",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_settings.xml",
+      "line": 23,
+      "widget": "@+id/btn_settings_back",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_settings.xml",
+      "line": 67,
+      "widget": "@+id/row_change_password",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/activity_settings.xml",
+      "line": 95,
+      "widget": "@+id/row_clear_image_cache",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_change_password.xml",
+      "line": 11,
+      "widget": "@+id/et_old_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_change_password.xml",
+      "line": 22,
+      "widget": "@+id/et_new_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_change_password.xml",
+      "line": 34,
+      "widget": "@+id/et_confirm_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_new_post.xml",
+      "line": 11,
+      "widget": "@+id/et_post_content",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_new_post.xml",
+      "line": 24,
+      "widget": "@+id/tv_select_post_image",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_new_post.xml",
+      "line": 36,
+      "widget": "@+id/iv_selected_post_image",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_new_post.xml",
+      "line": 36,
+      "widget": "@+id/iv_selected_post_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_reset_password.xml",
+      "line": 11,
+      "widget": "@+id/et_reset_username",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_reset_password.xml",
+      "line": 21,
+      "widget": "@+id/et_reset_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/dialog_reset_password.xml",
+      "line": 33,
+      "widget": "@+id/et_reset_confirm_password",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 33,
+      "widget": "@+id/btn_scan",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 45,
+      "widget": "@+id/layout_search_box",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-004",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 45,
+      "widget": "@+id/layout_search_box",
+      "detail": "LinearLayout 可点击但无 text / contentDescription，TalkBack 只会朗读「按钮」"
+    },
+    {
+      "rule": "A11Y-008",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 45,
+      "widget": "@+id/layout_search_box",
+      "detail": "LinearLayout 可点击但未设置 android:focusable=\"true\"，键盘/方向键无法聚焦"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 45,
+      "widget": "@+id/layout_search_box",
+      "detail": "layout_height=44dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 59,
+      "widget": "@+id/iv_search_icon",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 59,
+      "widget": "@+id/iv_search_icon",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 66,
+      "widget": "@+id/et_search",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 85,
+      "widget": "@+id/iv_search_camera",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 85,
+      "widget": "@+id/iv_search_camera",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 114,
+      "widget": "@+id/btn_local_search_toggle",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 126,
+      "widget": "@+id/btn_ai_search_toggle",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 163,
+      "widget": "@+id/tab_follow",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 187,
+      "widget": "@+id/tv_tab_recommend",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 197,
+      "widget": "@+id/tv_tab_latest",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 568,
+      "widget": "@+id/btn_ai_recommend_toggle",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 580,
+      "widget": "@+id/btn_local_recommend_toggle",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 690,
+      "widget": "@+id/tv_empty_state",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_discovery.xml",
+      "line": 703,
+      "widget": "@+id/btn_empty_reset_filters",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 40,
+      "widget": "@+id/tv_header_unread_badge",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 58,
+      "widget": "@+id/layout_unread_summary",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 121,
+      "widget": "@+id/tv_summary_toggle_unread",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 154,
+      "widget": "@+id/et_message_search",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 172,
+      "widget": "@+id/tab_all",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 182,
+      "widget": "@+id/tab_buying",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 192,
+      "widget": "@+id/tab_selling",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 238,
+      "widget": "@+id/fab_new_message",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_message.xml",
+      "line": 238,
+      "widget": "@+id/fab_new_message",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 85,
+      "widget": "@+id/layout_upload_photos",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 124,
+      "widget": "@+id/iv_preview_1",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 130,
+      "widget": "@+id/btn_remove_preview_1",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 156,
+      "widget": "@+id/iv_preview_2",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 162,
+      "widget": "@+id/btn_remove_preview_2",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 188,
+      "widget": "@+id/iv_preview_3",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 205,
+      "widget": "@+id/btn_remove_preview_3",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 238,
+      "widget": "@+id/et_post_title",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 259,
+      "widget": "@+id/et_post_description",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 279,
+      "widget": "@+id/btn_ai_post_assist",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 331,
+      "widget": "@+id/sp_category",
+      "detail": "layout_height=32dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 370,
+      "widget": "@+id/et_post_price",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 383,
+      "widget": "@+id/btn_ai_price_assist",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 473,
+      "widget": "@+id/et_post_condition",
+      "detail": "layout_height=36dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 473,
+      "widget": "@+id/et_post_condition",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 516,
+      "widget": "@+id/et_post_location",
+      "detail": "layout_height=36dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-009",
+      "severity": "info",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 516,
+      "widget": "@+id/et_post_location",
+      "detail": "EditText 未指定 nextFocusForward，键盘 Tab 顺序依赖布局推断"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 529,
+      "widget": "@+id/btn_pick_location_amap",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 0,
+      "widget": "ImageView",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_post.xml",
+      "line": 666,
+      "widget": "@+id/btn_close_pro_tip",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 45,
+      "widget": "@+id/btn_profile_settings",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-002",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 66,
+      "widget": "@+id/layout_profile_avatar",
+      "detail": "contentDescription 应引用 @string 资源，当前为硬编码：更换头像"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 74,
+      "widget": "@+id/iv_profile_avatar",
+      "detail": "ShapeableImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 131,
+      "widget": "@+id/btn_edit_profile",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-004",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 152,
+      "widget": "@+id/card_purchases",
+      "detail": "LinearLayout 可点击但无 text / contentDescription，TalkBack 只会朗读「按钮」"
+    },
+    {
+      "rule": "A11Y-004",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 198,
+      "widget": "@+id/card_sales",
+      "detail": "LinearLayout 可点击但无 text / contentDescription，TalkBack 只会朗读「按钮」"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 362,
+      "widget": "@+id/row_account_listings",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 394,
+      "widget": "@+id/row_account_community",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-010",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/fragment_profile.xml",
+      "line": 426,
+      "widget": "@+id/row_account_settings",
+      "detail": "Java 中绑定了点击监听，但布局未声明 android:focusable=\"true\"，键盘/方向键无法到达"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_cart_entry.xml",
+      "line": 20,
+      "widget": "@+id/iv_cart_item_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_cart_entry.xml",
+      "line": 89,
+      "widget": "@+id/btn_cart_item_contact",
+      "detail": "layout_height=36dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_cart_entry.xml",
+      "line": 102,
+      "widget": "@+id/btn_cart_item_remove",
+      "detail": "layout_height=36dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_community_post.xml",
+      "line": 69,
+      "widget": "@+id/iv_post_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_community_post.xml",
+      "line": 77,
+      "widget": "@+id/btn_delete_post",
+      "detail": "layout_height=36dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_conversation.xml",
+      "line": 18,
+      "widget": "@+id/iv_conversation_avatar",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_conversation.xml",
+      "line": 119,
+      "widget": "@+id/iv_conversation_item_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_marketplace_card.xml",
+      "line": 18,
+      "widget": "@+id/iv_item_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_my_listing.xml",
+      "line": 18,
+      "widget": "@+id/iv_my_item_image",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_my_listing.xml",
+      "line": 65,
+      "widget": "@+id/btn_edit_item",
+      "detail": "layout_height=32dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_my_listing.xml",
+      "line": 79,
+      "widget": "@+id/btn_delete_item",
+      "detail": "layout_height=32dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-001",
+      "severity": "error",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_order_card.xml",
+      "line": 23,
+      "widget": "@+id/iv_order_thumb",
+      "detail": "ImageView 既无 contentDescription，也未标记 importantForAccessibility=\"no\"（装饰性）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_order_card.xml",
+      "line": 107,
+      "widget": "@+id/btn_order_secondary",
+      "detail": "layout_height=40dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    },
+    {
+      "rule": "A11Y-005",
+      "severity": "warning",
+      "file": "../.workbuddy/repos/Android-APP/app/src/main/res/layout/item_order_card.xml",
+      "line": 120,
+      "widget": "@+id/btn_order_primary",
+      "detail": "layout_height=40dp 小于 48dp 最小触摸目标（可用 minWidth/minHeight 补足）"
+    }
+  ],
+  "error_count": 110,
+  "total": 151
+}
